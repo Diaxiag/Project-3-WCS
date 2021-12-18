@@ -72,6 +72,7 @@ footer hr {
 
 footer a {
     color: #fff;
+    text-decoration: none;
 }
 
 footer a:hover {
@@ -84,13 +85,17 @@ footer a:hover {
     padding: 15px 0;
 }
 
+.safety-exit-bar img {
+    height: auto;
+}
+
 .safety-exit-link {
     color: #fff;
+    text-decoration: none;
 }
 
 .safety-exit-link:hover  {
     color: #DC3BA3;
-}
 }
 
 /* Icon 1 */
