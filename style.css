@@ -98,6 +98,10 @@ footer a:hover {
     color: #DC3BA3;
 }
 
+#get-away {
+    cursor: pointer;
+}
+
 /* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
