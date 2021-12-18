@@ -265,4 +265,26 @@ footer a:hover {
 
     nav ul li a {
         color: white!important;
+        margin-left:15px;
+    }
+
+    .cards-background {
+        background-image: url(images/cards-background.png);
+        justify-content: center;
+    }
+
+    .emergencyShelters {
+        background-color: #7EBEC5;
+    }
+
+    .outReach {
+        background-color: #7E2D93;
+    }
+
+    .supportLines {
+        background-color: #DC3BA3;
+    }
+
+    img .cardBackgroundIcons {
+        justify-items: center !important;
     }
