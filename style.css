@@ -52,3 +52,36 @@ table {
     background-color: black;
     padding-top: -10px;
 }
+
+footer {
+    background-color: #2D363F;
+    color: #FFF;
+    padding: 50px 0 100px 0;
+}
+
+footer hr {
+    background-color: #FFF;
+    color: #FFF;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #DC3BA3;
+}
+
+.safety-exit-bar {
+    background-color: #2EA3F2;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.safety-exit-link {
+    color: #fff;
+}
+
+.safety-exit-link:hover  {
+    color: #DC3BA3;
+}
