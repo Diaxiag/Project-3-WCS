@@ -20,16 +20,20 @@
     </head>
     <body>
 <!--Navbar-->
-<nav class="navbar navbar-light light-blue lighten-4">
+<nav class="navbar navbar-light light-blue lighten-4 align-middle">
 
   <!-- Collapse button -->
+  <div class="d-inline">
   <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
     aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
         class="fas fa-bars fa-1x"></i></span></button>
         
   <!-- Navbar brand -->
-  <a class="navbar-brand" href="#"><img src="images/wcs-logo.png"></a>
-
+  <a class="navbar-brand" href="#"><img src="images/wcs-logo.png" id="logoHome"></a></div>
+  <div class="d-inline text-center align-middle" id="giftOfHope">
+  <p><strong>Give the Gift of Hope </strong><img src="images/gift-box.png" id="giftBox">
+  <button type="button" class="btn btn-outline-light" id="donateButton">DONATE</button></p>
+  </div>
   <!-- Collapsible content -->
   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
 
@@ -52,6 +56,10 @@
 
 </nav>
 <!--/.Navbar-->
+
+<div class="col-12 text-center align-middle">
+  <p id="noticeBar"><img src="images/alert-light.png">  If you are in danger, please call 911 <img src="images/alert-light.png"></p> 
+</div>
 
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -92,8 +100,6 @@
   </button>
 </div>
 </div>
-
-
 
 <div class="row align-items-center cards-background">
   <div class="col p-2 mx-2 my-3 emergencyShelters text-center">

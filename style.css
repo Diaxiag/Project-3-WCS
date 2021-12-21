@@ -297,3 +297,27 @@ footer a:hover {
     img .cardBackgroundIcons {
         justify-items: center !important;
     }
+
+    #noticeBar {
+        background-color: #DC3BA3 !important;
+        color: #fff;
+        margin-bottom: 0;
+        padding: 10px;
+    }
+
+    #donateButton {
+        margin-right: 16px;
+    }
+
+    #giftOfHope {
+        padding-top:16px
+    }
+
+    #giftBox {
+        padding-right: 24px;
+        padding-left: 8px;
+    }
+
+    #logoHome {
+        margin-left: 16px;
+    }
