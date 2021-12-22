@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+font-family: 'Roboto', sans-serif;
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -321,3 +321,50 @@ footer a:hover {
     #logoHome {
         margin-left: 16px;
     }
+
+    #coverYourTracks {
+        background-image: url(images/Cover-Tracks-Banner.png);
+        background-size: 150%;
+        background-repeat: no-repeat;
+    }
+    #coverYourTracks img {
+        padding: 10px;
+    }
+
+    #coverYourTracks h1 {
+        font-size: 5rem;
+        color: white;
+    }
+    #coverYourTracks {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "incognitoIcon coveryourtracks ."
+          ". . ."
+          ". . .";
+      }
+      
+      .incognitoIcon { grid-area: incognitoIcon; }
+      
+      .coveryourtracks { grid-area: coveryourtracks; }
+
+      @media screen and (min-width: 920px) {
+        div#coverYourTracks h1 {
+          font-size: 5rem;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 919px) {
+        div#coverYourTracks h1 {
+          font-size: 3rem;
+        }
+      }
+
+      @media screen and (max-width: 420px) {
+        div#coverYourTracks h1 {
+          font-size: 1.5rem;
+        }
+      }
