@@ -335,6 +335,10 @@ footer a:hover {
         font-size: 5rem;
         color: white;
     }
+    #outreach-services h1 {
+        font-size: 5rem;
+        color: white;
+    }
     #coverYourTracks {  display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -372,3 +376,35 @@ footer a:hover {
       .microsoftEdge li {
           list-style-type:none;
       }
+
+      #outreach-services {
+        background-image: url(images/Outreach-banner.png);
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    @media screen and (min-width: 920px) {
+        div#outreach-services h1 {
+          font-size: 5rem;
+        }
+        #outreach-services {
+            background-image: url(images/Outreach-banner.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+      }
+      
+      /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+      @media screen and (max-width: 919px) {
+        div#outreach-services h1 {
+          font-size: 3rem;
+        }
+      }
+
+      @media screen and (max-width: 420px) {
+        div#outreach-services h1 {
+          font-size: 1.5rem;
+        }
+      } 
