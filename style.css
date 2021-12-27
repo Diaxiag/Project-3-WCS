@@ -284,14 +284,17 @@ footer a:hover {
 
     .emergencyShelters {
         background-color: #7EBEC5;
+        padding: 32px 24px 32px 24px;
     }
 
     .outReach {
         background-color: #7E2D93;
+        padding: 32px 24px 32px 24px;
     }
 
     .supportLines {
         background-color: #DC3BA3;
+        padding: 32px 24px 32px 24px;
     }
 
     img .cardBackgroundIcons {
@@ -408,3 +411,41 @@ footer a:hover {
           font-size: 1.5rem;
         }
       } 
+
+.wcs-button-light {
+        color: #fff !important;
+        background-color: #7EBEC5 !important;
+        outline: none !important;
+        border: none !important; 
+    }
+
+    .wcs-button-dark {
+        color: #fff !important;
+        background-color: #7E2D93 !important;
+        outline: none !important;
+        border: none !important;
+        border-radius: 50px !important;
+    }
+
+    .servicesProdivded {
+        padding: 50px 0 !important;
+        background-image: url(images/cards-background.png);
+        background-size: cover;
+    }
+
+    .emergencyShelter {
+        padding: 50px 0 !important;
+        background-color: #2E3641;
+    }
+
+    .contactUs {
+        background-image: url(images/contact-image.png);
+        background-size: cover;
+        background-position: center;
+        padding: 50px 0 !important;
+    }
+
+    .connectWithUs {
+        background-color: #7E2D93;
+        padding: 25px 0 !important;
+    }
