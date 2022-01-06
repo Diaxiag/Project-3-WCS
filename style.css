@@ -412,6 +412,12 @@ footer a:hover {
         }
       } 
 
+      @media screen and (max-width: 616px) {
+        .navbar {
+          justify-content: center!important;
+        }
+      }
+
 .wcs-button-light {
         color: #fff !important;
         background-color: #7EBEC5 !important;
