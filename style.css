@@ -399,6 +399,8 @@ footer a:hover {
         }
       }
       
+
+
       /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
       @media screen and (max-width: 919px) {
         div#outreach-services h1 {
@@ -416,6 +418,16 @@ footer a:hover {
         .navbar {
           justify-content: center!important;
         }
+        .logoNav {
+            margin-bottom: -16px;
+            margin-top: 12px;
+        }
+        .navLine {
+            height: 2px;
+            background-color: #ffffff;
+            margin: 16px;
+        }
+  
       }
 
 .wcs-button-light {
