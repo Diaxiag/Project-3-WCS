@@ -467,3 +467,8 @@ footer a:hover {
         background-color: #7E2D93;
         padding: 25px 0 !important;
     }
+
+    button a {
+        text-decoration: none;
+        color: white;
+    }
